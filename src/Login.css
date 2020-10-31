@@ -1,0 +1,36 @@
+.Login{
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    
+}
+.Login__container{
+    padding: 100px;
+    justify-content: center;
+    height: 40vh;
+    width: 40vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px - rgba(0, 0, 0, 0.12);
+
+}
+ .Login__container > img{
+     object-fit: contain;
+     height: 100px;
+     margin-bottom: 40px;
+ }
+.btn{
+    margin-top: 30px;
+    border-radius: inherit;
+    text-transform: inherit;
+    background-color: #0cc261;
+    color: white;
+}
+.Login__text{
+    justify-content: center;
+
+    margin-top: -10px;
+}
